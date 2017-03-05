@@ -1,6 +1,5 @@
 
 # Play Super Mario (web game) with your voice
-![screenshot](screenshot.png)
 
 By playing with the volume of the current microphone registered audio/noise you can command Super Mario.
 
