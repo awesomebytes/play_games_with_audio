@@ -14,9 +14,14 @@ You'll need:
 * [pykeyboard](https://github.com/SavinaRoja/PyUserInput/tree/master/pykeyboard) `sudo pip install PyUserInput`
 * [pyaudio](https://people.csail.mit.edu/hubert/pyaudio/) `sudo pip install pyaudio`. **Note**: You may get rid of this dependence modifying the code using the hacky approach found in [this gist](https://gist.github.com/awesomebytes/a382d94c0b312d9b507051b99a433a31). Do it at your own risk.
 
+And clone this repo:
+    git clone https://github.com/awesomebytes/play_games_with_audio
+
 # Run
 
     python play_mario.py
+
+Open a browser, I used chrome, with the [HTML5 Super Mario game](http://supermarioemulator.com/mario.php). Focus this window, you may need to click in the game...
 
 And now when the sound registered by your microphone is louder than 12.5% **D** key will be pressed (so Mario will start moving right) when the noise becomes lower the key will be released. When the audio is louder than 25.0% **W** will be pressed (Mario will jump as high as relative to the maximum volume found at that moment). So if you make a louder noise it will jump higher!
 
