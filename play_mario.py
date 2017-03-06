@@ -32,7 +32,7 @@ class ExampleApp(QtGui.QMainWindow, ui_main.Ui_MainWindow):
         self.k = PyKeyboard()
         self.pressed_d = False
         self.pressed_w = False
-        self.max_jump_time = 0.5
+        self.max_jump_time = 0.35
         self.jump_time = 0.0
 
     def update(self):
